@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    overflow-x: hidden;
+    background-image: url("https://img.freepik.com/free-photo/blur-coffee-cafe-shop-restaurant-with-bokeh-background_1421-472.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    color: #ffff;
+}
+
+.card{
+    width: 300px;
+    height: 320px;
+    margin: 0 auto;
+    background-color: transparent;
+    border: 2px solid #ffff;
+    color: #ffff;
+}
