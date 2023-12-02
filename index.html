@@ -15,83 +15,413 @@
   <body>
     <header class="text-center">
       <h1 class="my-2 fw-bold">Nuestra Carta</h1>
+      <nav class="navbar navbar-expand-lg  shadow-lg rounded">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link item-menu" aria-current="page" href="#hamburguesa"
+                  >Hamburguesas</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link item-menu" href="#milanesas">Milanesas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link item-menu" href="#empanadas">Empanadas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link item-menu" href="#pizzas">Pizzas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link item-menu" href="#principal">Plato principal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link item-menu" href="#sandwich">Sandwich</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link item-menu" href="#ensaladas">Ensaladas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link item-menu" href="#postres">Postres</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link item-menu" href="#bebidas">Bebidas</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
-    <main class="container ">
+    <main class="container my-5">
       <hr />
       <section>
-        <h2 class="fw-bold">Hamburguesas</h2>
-        <div class="container text-center">
-            <div class="row justify-content-center mt-2">
-              <div class="col-md-auto col-sm-12 mt-3">
-                <div class="card">
-                    <img class="img-fluid" src="https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title fw-bold">Clásica</h5>
-                      <p class="card-text">Carne, lechuga, tomate y queso tybo.</p>
-                      
-                    </div>
-                  </div>
+        <h2 class="fw-bold" id="hamburguesa">Hamburguesas</h2>
+        <div class="container ">
+          <div class="row justify-content-center mt-2">
+            <div class="col-md-auto col-sm-12 mt-3">
+              <div class="card shadow-lg rounded">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Clásica</h5>
+                  <p class="card-text">Carne, lechuga, tomate y queso tybo.</p>
+                  <p class="card-text shadow-lg rounded precio">$2500</p>
+                </div>
               </div>
-              <div class="col-md-auto col-sm-12 mt-3">
-                <div class="card" style="width: 18rem;">
-                    <img class="img-fluid" src="https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title fw-bold">Americana</h5>
-                      <p class="card-text">Carne, queso cheddar, cebolla caramelizada, bacon y salsa barbacoa.</p>
-                      
-                    </div>
-                  </div>
+            </div>
+            <div class="col-md-auto col-sm-12 mt-3">
+              <div class="card shadow-lg rounded" style="width: 18rem">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Americana</h5>
+                  <p class="card-text">
+                    Carne, queso cheddar, cebolla caramelizada, bacon y salsa
+                    barbacoa.
+                  </p>
+                  <p class="card-text shadow-lg rounded precio">$3000</p>
+                </div>
               </div>
-              <div class="col-md-auto col-sm-12 mt-3">
-                <div class="card" style="width: 18rem;">
-                    <img class="img-fluid" src="https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title fw-bold">Mega power bacon doble</h5>
-                      <p class="card-text">Carne, cheddar, pepinillos y salsa jalapeños.</p>
-                      
-                    </div>
-                  </div>
+            </div>
+            <div class="col-md-auto col-sm-12 mt-3">
+              <div class="card shadow-lg rounded" style="width: 18rem">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Mega power bacon doble</h5>
+                  <p class="card-text">
+                    Carne, cheddar, pepinillos y salsa jalapeños.
+                  </p>
+                  <p class="card-text shadow-lg rounded precio">$3000</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-auto col-sm-12 mt-3">
+              <div class="card shadow-lg rounded" style="width: 18rem">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Vegetariana</h5>
+                  <p class="card-text">
+                    Burguer de soja, queso tybo, lechuga, tomate y guacamole.
+                  </p>
+                  <p class="card-text shadow-lg rounded precio">$3000</p>
+                </div>
               </div>
             </div>
           </div>
+        </div>
       </section>
-      <hr>
+      <hr />
       <section>
-        <h2 class="fw-bold">Milanesas</h2>
-        <div class="container text-center">
-            <div class="row justify-content-center mt-2">
-              <div class="col-md-auto col-sm-12 mt-3">
-                <div class="card">
-                    <img class="img-fluid" src="https://scm-assets.constant.co/scm/unilever/d806c3b80def8183f2c1c0e93e7fb11b/ab7a9016-c3f1-444d-a29f-2084e7408128.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title fw-bold">Clásica</h5>
-                      <p class="card-text">Milanesa, lechuga, tomate, aderezos.</p>
-                      
-                    </div>
-                  </div>
+        <h2 class="fw-bold" id="milanesas">Milanesas</h2>
+        <div class="container">
+          <div class="row justify-content-center mt-2">
+            <div class="col-md-auto col-sm-12 mt-3">
+              <div class="card shadow-lg rounded">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Clásica</h5>
+                  <p class="card-text">Milanesa, lechuga, tomate, aderezos.</p>
+                  <p class="card-text shadow-lg rounded precio">$3000</p>
+                </div>
               </div>
-              <div class="col-md-auto col-sm-12 mt-3">
-                <div class="card" style="width: 18rem;">
-                    <img class="img-fluid" src="https://scm-assets.constant.co/scm/unilever/d806c3b80def8183f2c1c0e93e7fb11b/ab7a9016-c3f1-444d-a29f-2084e7408128.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title fw-bold">Especial</h5>
-                      <p class="card-text">Milanesa, jamón, queso, huevo, lechuga, y tomate.</p>
-                      
-                    </div>
-                  </div>
+            </div>
+            <div class="col-md-auto col-sm-12 mt-3">
+              <div class="card shadow-lg rounded" style="width: 18rem">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Especial</h5>
+                  <p class="card-text">
+                    Milanesa, jamón, queso, huevo, lechuga, y tomate.
+                  </p>
+                  <p class="card-text shadow-lg rounded precio">$3000</p>
+                </div>
               </div>
-              <div class="col-md-auto col-sm-12 mt-3">
-                <div class="card" style="width: 18rem;">
-                    <img class="img-fluid" src="https://scm-assets.constant.co/scm/unilever/d806c3b80def8183f2c1c0e93e7fb11b/ab7a9016-c3f1-444d-a29f-2084e7408128.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title fw-bold">Especial</h5>
-                      <p class="card-text">Milanesa, jamón, queso, huevo, lechuga, y tomate.</p>
-                      
-                    </div>
-                  </div>
+            </div>
+            <div class="col-md-auto col-sm-12 mt-3">
+              <div class="card shadow-lg rounded" style="width: 18rem">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Especial</h5>
+                  <p class="card-text">
+                    Milanesa, jamón, queso, huevo, lechuga, y tomate.
+                  </p>
+                  <p class="card-text shadow-lg rounded precio">$3000</p>
+                </div>
               </div>
             </div>
           </div>
+        </div>
+      </section>
+      <section>
+        <hr />
+        <h2 class="fw-bold" id="empanadas">Empanadas</h2>
+        <div class="container">
+          <div class="row justify-content-center mt-2">
+            <div class="col-md-auto col-sm-12 mt-3">
+              <div class="card shadow-lg rounded">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Carne</h5>
+                  <p class="card-text shadow-lg rounded precio">$3000</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-auto col-sm-12 mt-3">
+              <div class="card shadow-lg rounded" style="width: 18rem">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Pollo</h5>
+                  <p class="card-text shadow-lg rounded precio">$3000</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-auto col-sm-12 mt-3">
+              <div class="card shadow-lg rounded" style="width: 18rem">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Jamón y queso</h5>
+                  <p class="card-text shadow-lg rounded precio">$3000</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <hr />
+        <h2 class="fw-bold" id="pizzas">Pizzas</h2>
+        <div class="container">
+          <div class="row justify-content-center mt-2">
+            <div class="col-md-auto col-sm-12 mt-3">
+              <div class="card shadow-lg rounded">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Muzzarella</h5>
+                  <p class="card-text">
+                    Mozzarella, salsa de tomate, aceitunas, tomate en rodajas.
+                  </p>
+                  <p class="card-text shadow-lg rounded precio">$3000</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-auto col-sm-12 mt-3">
+              <div class="card shadow-lg rounded" style="width: 18rem">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Especial</h5>
+                  <p class="card-text">
+                    Mozzarella, salsa de tomate, jamón, morrones y aceitunas.
+                  </p>
+                  <p class="card-text shadow-lg rounded precio">$3000</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-auto col-sm-12 mt-3">
+              <div class="card shadow-lg rounded" style="width: 18rem">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Napolitana</h5>
+                  <p class="card-text">
+                    Mozzarella, salsa de tomate, y aceitunas.
+                  </p>
+                  <p class="card-text shadow-lg rounded precio">$3000</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <hr />
+        <h2 class="fw-bold" id="principal">Plato principal</h2>
+        <div class="container">
+          <div class="row justify-content-center mt-2">
+            <div class="col-md-auto col-sm-12 mt-3">
+              <div class="card shadow-lg rounded">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Milanesa napolitana</h5>
+                  <p class="card-text">
+                    Salsa barbacoa, jamón, queso cheddar y huevo frito.
+                  </p>
+                  <p class="card-text shadow-lg rounded precio">$3000</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-auto col-sm-12 mt-3">
+              <div class="card shadow-lg rounded" style="width: 18rem">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Bife de lomo</h5>
+                  <p class="card-text shadow-lg rounded precio">$6000</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-auto col-sm-12 mt-3">
+              <div class="card shadow-lg rounded" style="width: 18rem">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Suprema</h5>
+                  <p class="card-text shadow-lg rounded precio">$5000</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <hr />
+        <h2 class="fw-bold" id="sandwich">Sandwich</h2>
+        <div class="container">
+          <div class="row justify-content-center mt-2">
+            <div class="col-md-auto col-sm-12 mt-3">
+              <div class="card shadow-lg rounded">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Tostado de jamón y queso</h5>
+                  <p class="card-text">
+                    Pan de miga o pan arabe.
+                  </p>
+                  <p class="card-text shadow-lg rounded precio">$1000</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-auto col-sm-12 mt-3">
+              <div class="card shadow-lg rounded" style="width: 18rem">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Sandwich de pollo</h5>
+                  <p class="card-text">Pan de miga o pan arabe.</p>
+                  <p class="card-text shadow-lg rounded precio">$1500</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <hr />
+        <h2 class="fw-bold" id="ensaladas">Ensaladas</h2>
+        <div class="container">
+          <div class="row justify-content-center mt-2">
+            <div class="col-md-auto col-sm-12 mt-3">
+              <div class="card shadow-lg rounded">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Caesar</h5>
+                  <p class="card-text">
+                    Pollo desmenuzado, queso tomate, lechuga, cruttones y salsa
+                    caesar
+                  </p>
+                  <p class="card-text shadow-lg rounded precio">$3000</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-auto col-sm-12 mt-3">
+              <div class="card shadow-lg rounded" style="width: 18rem">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Ensalada</h5>
+                  <p class="card-text shadow-lg rounded precio">$3000</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <hr />
+        <h2 class="fw-bold" id="postres">Postres</h2>
+        <div class="container">
+          <div class="row justify-content-center mt-2">
+            <div class="col-md-auto col-sm-12 mt-3">
+              <div class="card shadow-lg rounded">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Tarta De Queso</h5>
+                  <p class="card-text shadow-lg rounded precio">$4000</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-auto col-sm-12 mt-3">
+              <div class="card shadow-lg rounded" style="width: 18rem">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Flan</h5>
+                  <p class="card-text shadow-lg rounded precio">$2000</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <hr />
+        <h2 class="fw-bold" id="bebidas">Bebidas sin alcohol</h2>
+        <div class="container">
+          <div class="row justify-content-center mt-2">
+            <div class="col-md-auto col-sm-12 mt-3">
+              <div class="card shadow-lg rounded">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Gaseosa sprite 1l</h5>
+                  <p class="card-text shadow-lg rounded precio">$1000</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-auto col-sm-12 mt-3">
+              <div class="card shadow-lg rounded" style="width: 18rem">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Gaseosa coca-cola 1l</h5>
+                  <p class="card-text shadow-lg rounded precio">$1000</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-auto col-sm-12 mt-3">
+              <div class="card shadow-lg rounded" style="width: 18rem">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Gaseosa fanta 1l</h5>
+                  <p class="card-text shadow-lg rounded precio">$1000</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <hr />
+        <h2 class="fw-bold">Bebidas con alcohol</h2>
+        <div class="container">
+          <div class="row justify-content-center mt-2">
+            <div class="col-md-auto col-sm-12 mt-3">
+              <div class="card shadow-lg rounded">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Salta negra 1L</h5>
+                  <p class="card-text shadow-lg rounded precio">$1900</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-auto col-sm-12 mt-3">
+              <div class="card shadow-lg rounded" style="width: 18rem">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Imperial 1L</h5>
+                  <p class="card-text shadow-lg rounded precio">$2500</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-auto col-sm-12 mt-3">
+              <div class="card shadow-lg rounded" style="width: 18rem">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Heineken 1L</h5>
+                  <p class="card-text shadow-lg rounded precio">$3000</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-auto col-sm-12 mt-3">
+              <div class="card shadow-lg rounded" style="width: 18rem">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Fernet branca</h5>
+                  <p class="card-text shadow-lg rounded precio">$800</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-auto col-sm-12 mt-3">
+                <div class="card shadow-lg rounded" style="width: 18rem">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">Vodka</h5>
+                    <p class="card-text shadow-lg rounded precio">$1300</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
       </section>
     </main>
     <footer></footer>
@@ -100,6 +430,7 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    
   </body>
 </html>
 

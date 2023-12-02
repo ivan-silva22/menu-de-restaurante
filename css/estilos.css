@@ -6,19 +6,44 @@
 
 body{
     font-family: 'Nunito', sans-serif;
-    overflow-x: hidden;
-    background-image: url("https://img.freepik.com/free-photo/blur-coffee-cafe-shop-restaurant-with-bokeh-background_1421-472.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
+   background-color: #502314;
+}
+
+nav{
+    background-color: #502314;
+}
+
+nav .nav-link{
+    color: #ffff;
+}
+
+h1, h2, hr{
     color: #ffff;
 }
 
 .card{
     width: 300px;
-    height: 320px;
     margin: 0 auto;
-    background-color: transparent;
+    transition: transform .4s;
     border: 2px solid #ffff;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: transform .4s;
+}
+
+.precio{
+    display: inline-block;
+    padding: 4px;
+    background-color: #502314be;
+    font-weight: 700;
     color: #ffff;
+}
+
+.item-menu{
+    padding: 2px 2px;
+    margin: 0 3px;
+    background-color: rgba(0, 0, 0, 0.308);
+    border-radius: 10px;
 }
